@@ -1,0 +1,16 @@
+{% extends "main.html" %}
+{% block content %}
+<div class="container">
+  <div class="jumbotron">
+    <div>
+      <h4>ET PHONE HOME</h4>
+      <p>Sit and stare. Playing with balls of wool poop in the plant pot, curl up and sleep on the freshly laundered towels. Dead stare with ears cocked mewl for food at 4am meow go back to sleep owner brings food and water tries to pet on head, so scratch get sprayed by water because bad cat more napping, more napping all the napping is exhausting yet leave hair on owner's clothes. </p>
+    </div>
+  </div>
+  <div>
+    {% if desc %}
+     <h1>{{ desc }}</h1>
+   {% endif %}
+  </div>
+</div>
+ {% endblock %}
